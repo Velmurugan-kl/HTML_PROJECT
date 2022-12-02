@@ -1,0 +1,94 @@
+.item {
+    background:linear-gradient(to right, grey,white);
+    width: 300px;
+    border: 5px;
+    border-color: linear-gradient(to right, rgb(0,0,0),white);
+    padding: 50px;
+    margin: 15px;
+    border-style: outset;
+    border-radius:20px;
+    }
+
+.item1 {
+    background:linear-gradient(to right, grey,white);
+    width: 700px;
+    border: 5px;
+    border-color: linear-gradient(to right, rgb(0,0,0),white);
+    padding: 50px;
+    margin: 15px;
+    border-style: outset;
+    border-radius:20px;
+    }
+h2{color: rgb(0, 0, 0);}
+
+.item{
+    float:left}
+
+*{box-sizing: border-box;}
+body{background-image: url(https://media.istockphoto.com/id/993401636/vector/drink-doodle-set%C3%A0.jpg?s=1024x1024&w=is&k=20&c=vOXq9g8N5Hi1eBXX1X8DDDnpDa4WSOuZEgsCj84Q45k=);}
+
+.button {border-radius: 12px;}
+
+button{ position: relative; 
+        width: 150px;
+        padding: 15px 0; 
+        text-align: center;
+        font-weight: bold;
+        border: 2px solid #0c0c0c;
+        margin: 10px 10px;
+        background: red;
+        color: rgb(4, 4, 4);
+        cursor: pointer; 
+        overflow: hidden;
+        text-transform:uppercase;
+	}
+input{ position: relative; 
+        width: 150px;
+        padding: 15px 0; 
+        text-align: center;
+        font-weight: bold;
+        border: 2px solid #0c0c0c;
+        margin: 10px 10px;
+        background: red;
+        color: rgb(4, 4, 4);
+        cursor: pointer; 
+        overflow: hidden;
+        text-transform:uppercase;
+	}
+
+    .navigation .pos {
+        position: fixed;
+        top: 0;
+        right:0;
+        left:0;
+        background-color: rgb(71, 69, 69);
+        }
+                  
+    .navigation a {
+        float: left;
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration:none;
+        font-size: 17px;
+        }
+                  
+    .navigation a:hover {
+        background-color: #e8963ef0;
+        color: white;
+        }
+                  
+    .navigation a.home {
+        background-color: #e8963ef0;
+        color: white;
+        }
+                  
+    .navigation input{
+        float: right;
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        border: none;
+        font-size: 17px;
+        }
