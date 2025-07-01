@@ -1,5 +1,5 @@
 .item {
-    background:linear-gradient(to right, grey,white);
+    background:linear-gradient(to right, black,white);
     width: 300px;
     border: 5px;
     border-color: linear-gradient(to right, rgb(0,0,0),white);
